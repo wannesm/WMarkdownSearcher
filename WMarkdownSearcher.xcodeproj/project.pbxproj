@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0CAEF711CCD2B0A001EEB20 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C0CAEF701CCD2B0A001EEB20 /* main.c */; };
+		C0CAEF731CCD2B0A001EEB20 /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CAEF721CCD2B0A001EEB20 /* GetMetadataForFile.m */; };
+		C0CAEF761CCD2B0A001EEB20 /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CAEF751CCD2B0A001EEB20 /* MySpotlightImporter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0CAEF6C1CCD2B0A001EEB20 /* WMarkdownSearcher.mdimporter */ = {isa = PBXFileReference; explicitFileType = "wrapper.spotlight-importer"; includeInIndex = 0; path = WMarkdownSearcher.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0CAEF701CCD2B0A001EEB20 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C0CAEF721CCD2B0A001EEB20 /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
+		C0CAEF741CCD2B0A001EEB20 /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		C0CAEF751CCD2B0A001EEB20 /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
+		C0CAEF771CCD2B0A001EEB20 /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		C0CAEF781CCD2B0A001EEB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0CAEF691CCD2B0A001EEB20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0CAEF631CCD2B0A001EEB20 = {
+			isa = PBXGroup;
+			children = (
+				C0CAEF6E1CCD2B0A001EEB20 /* WMarkdownSearcher */,
+				C0CAEF6D1CCD2B0A001EEB20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0CAEF6D1CCD2B0A001EEB20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0CAEF6C1CCD2B0A001EEB20 /* WMarkdownSearcher.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0CAEF6E1CCD2B0A001EEB20 /* WMarkdownSearcher */ = {
+			isa = PBXGroup;
+			children = (
+				C0CAEF721CCD2B0A001EEB20 /* GetMetadataForFile.m */,
+				C0CAEF741CCD2B0A001EEB20 /* MySpotlightImporter.h */,
+				C0CAEF751CCD2B0A001EEB20 /* MySpotlightImporter.m */,
+				C0CAEF771CCD2B0A001EEB20 /* Importer Read Me.txt */,
+				C0CAEF781CCD2B0A001EEB20 /* Info.plist */,
+				C0CAEF6F1CCD2B0A001EEB20 /* Supporting Files */,
+			);
+			path = WMarkdownSearcher;
+			sourceTree = "<group>";
+		};
+		C0CAEF6F1CCD2B0A001EEB20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0CAEF701CCD2B0A001EEB20 /* main.c */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0CAEF6B1CCD2B0A001EEB20 /* WMarkdownSearcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0CAEF7B1CCD2B0A001EEB20 /* Build configuration list for PBXNativeTarget "WMarkdownSearcher" */;
+			buildPhases = (
+				C0CAEF681CCD2B0A001EEB20 /* Sources */,
+				C0CAEF691CCD2B0A001EEB20 /* Frameworks */,
+				C0CAEF6A1CCD2B0A001EEB20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMarkdownSearcher;
+			productName = WMarkdownSearcher;
+			productReference = C0CAEF6C1CCD2B0A001EEB20 /* WMarkdownSearcher.mdimporter */;
+			productType = "com.apple.product-type.spotlight-importer";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0CAEF641CCD2B0A001EEB20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Wannes Meert";
+				TargetAttributes = {
+					C0CAEF6B1CCD2B0A001EEB20 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C0CAEF671CCD2B0A001EEB20 /* Build configuration list for PBXProject "WMarkdownSearcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0CAEF631CCD2B0A001EEB20;
+			productRefGroup = C0CAEF6D1CCD2B0A001EEB20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0CAEF6B1CCD2B0A001EEB20 /* WMarkdownSearcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0CAEF6A1CCD2B0A001EEB20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0CAEF681CCD2B0A001EEB20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CAEF761CCD2B0A001EEB20 /* MySpotlightImporter.m in Sources */,
+				C0CAEF711CCD2B0A001EEB20 /* main.c in Sources */,
+				C0CAEF731CCD2B0A001EEB20 /* GetMetadataForFile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C0CAEF791CCD2B0A001EEB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C0CAEF7A1CCD2B0A001EEB20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C0CAEF7C1CCD2B0A001EEB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WMarkdownSearcher/Info.plist;
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_BUNDLE_IDENTIFIER = be.wannesm.WMarkdownSearcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		C0CAEF7D1CCD2B0A001EEB20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WMarkdownSearcher/Info.plist;
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_BUNDLE_IDENTIFIER = be.wannesm.WMarkdownSearcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0CAEF671CCD2B0A001EEB20 /* Build configuration list for PBXProject "WMarkdownSearcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CAEF791CCD2B0A001EEB20 /* Debug */,
+				C0CAEF7A1CCD2B0A001EEB20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0CAEF7B1CCD2B0A001EEB20 /* Build configuration list for PBXNativeTarget "WMarkdownSearcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CAEF7C1CCD2B0A001EEB20 /* Debug */,
+				C0CAEF7D1CCD2B0A001EEB20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0CAEF641CCD2B0A001EEB20 /* Project object */;
+}
