@@ -11,7 +11,7 @@
 			<string>MDImporter</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>YOUR_EXTERNAL_RECORD_UTI</string>
+				<string>net.daringfireball.markdown</string>
 			</array>
 		</dict>
 	</array>
@@ -62,16 +62,43 @@
 			<key>UTTypeDescription</key>
 			<string>Your Document Kind String</string>
 			<key>UTTypeIdentifier</key>
-			<string>YOUR_EXTERNAL_RECORD_UTI</string>
+			<string>net.daringfireball.markdown</string>
 			<key>UTTypeReferenceURL</key>
-			<string>http://www.company.com/yourproduct</string>
+			<string>https://daringfireball.net/projects/markdown/</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>com.apple.ostype</key>
+				<string>md</string>
+				<key>public.filename-extension</key>
+				<array>
+					<string>md</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.plain-text</string>
+				<string>public.data</string>
+				<string>public.content</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Markdown</string>
+			<key>UTTypeIdentifier</key>
+			<string>net.daringfireball.markdown</string>
+			<key>UTTypeReferenceURL</key>
+			<string>https://daringfireball.net/projects/markdown/</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>com.apple.ostype</key>
 				<string>XXXX</string>
 				<key>public.filename-extension</key>
 				<array>
-					<string>YOUR_EXTERNAL_RECORD_EXTENSION</string>
+					<string>markdown</string>
+					<string>md</string>
 				</array>
 			</dict>
 		</dict>

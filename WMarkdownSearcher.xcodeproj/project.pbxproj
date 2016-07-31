@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C04130641CF1FDDF009A7790 /* schema.xml in Resources */ = {isa = PBXBuildFile; fileRef = C04130631CF1FDDF009A7790 /* schema.xml */; };
 		C0CAEF711CCD2B0A001EEB20 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C0CAEF701CCD2B0A001EEB20 /* main.c */; };
 		C0CAEF731CCD2B0A001EEB20 /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CAEF721CCD2B0A001EEB20 /* GetMetadataForFile.m */; };
-		C0CAEF761CCD2B0A001EEB20 /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CAEF751CCD2B0A001EEB20 /* MySpotlightImporter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C04130631CF1FDDF009A7790 /* schema.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schema.xml; sourceTree = "<group>"; };
 		C0CAEF6C1CCD2B0A001EEB20 /* WMarkdownSearcher.mdimporter */ = {isa = PBXFileReference; explicitFileType = "wrapper.spotlight-importer"; includeInIndex = 0; path = WMarkdownSearcher.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0CAEF701CCD2B0A001EEB20 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		C0CAEF721CCD2B0A001EEB20 /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
-		C0CAEF741CCD2B0A001EEB20 /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
-		C0CAEF751CCD2B0A001EEB20 /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
 		C0CAEF771CCD2B0A001EEB20 /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
 		C0CAEF781CCD2B0A001EEB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,11 +52,10 @@
 			isa = PBXGroup;
 			children = (
 				C0CAEF721CCD2B0A001EEB20 /* GetMetadataForFile.m */,
-				C0CAEF741CCD2B0A001EEB20 /* MySpotlightImporter.h */,
-				C0CAEF751CCD2B0A001EEB20 /* MySpotlightImporter.m */,
 				C0CAEF771CCD2B0A001EEB20 /* Importer Read Me.txt */,
 				C0CAEF781CCD2B0A001EEB20 /* Info.plist */,
 				C0CAEF6F1CCD2B0A001EEB20 /* Supporting Files */,
+				C04130631CF1FDDF009A7790 /* schema.xml */,
 			);
 			path = WMarkdownSearcher;
 			sourceTree = "<group>";
@@ -126,6 +124,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04130641CF1FDDF009A7790 /* schema.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +135,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0CAEF761CCD2B0A001EEB20 /* MySpotlightImporter.m in Sources */,
 				C0CAEF711CCD2B0A001EEB20 /* main.c in Sources */,
 				C0CAEF731CCD2B0A001EEB20 /* GetMetadataForFile.m in Sources */,
 			);
@@ -275,6 +273,7 @@
 				C0CAEF7D1CCD2B0A001EEB20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
